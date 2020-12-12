@@ -6,7 +6,7 @@ Insert Port Proxy : 3128
 [*] Installation Process
 ```
 # 2. Testing
-'''
+```
 $ curl --proxy http://<IP_ADDRESS_INFO>:3128 ipinfo.io
 {
   "ip": "<IP_ADDRESS_INFO>",
@@ -18,4 +18,4 @@ $ curl --proxy http://<IP_ADDRESS_INFO>:3128 ipinfo.io
   "timezone": "Asia/Jakarta",
   "readme": "https://ipinfo.io/missingauth"
 }
-'''
+```
